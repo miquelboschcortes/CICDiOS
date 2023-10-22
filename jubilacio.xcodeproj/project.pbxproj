@@ -16,6 +16,9 @@
 		02ACD42B2AE58CAE00644F32 /* jubilacioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ACD42A2AE58CAE00644F32 /* jubilacioTests.swift */; };
 		02ACD4352AE58CAE00644F32 /* jubilacioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ACD4342AE58CAE00644F32 /* jubilacioUITests.swift */; };
 		02ACD4372AE58CAE00644F32 /* jubilacioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ACD4362AE58CAE00644F32 /* jubilacioUITestsLaunchTests.swift */; };
+		7236123876BFEC2D6E348DC4 /* Pods_jubilacio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E159ADCC3B8353D3F2A6A06 /* Pods_jubilacio.framework */; };
+		9EFC77E9BA8CD1855E07C132 /* Pods_jubilacio_jubilacioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28248D4C1096BCF49BABE44E /* Pods_jubilacio_jubilacioUITests.framework */; };
+		D26BBC0D6C1278C1322B18C0 /* Pods_jubilacioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D812A616F9412D7F8A7569 /* Pods_jubilacioTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		02ACD4302AE58CAE00644F32 /* jubilacioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jubilacioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02ACD4342AE58CAE00644F32 /* jubilacioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jubilacioUITests.swift; sourceTree = "<group>"; };
 		02ACD4362AE58CAE00644F32 /* jubilacioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jubilacioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28248D4C1096BCF49BABE44E /* Pods_jubilacio_jubilacioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jubilacio_jubilacioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3330F36C303117D41C27CB25 /* Pods-jubilacioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jubilacioTests.debug.xcconfig"; path = "Target Support Files/Pods-jubilacioTests/Pods-jubilacioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39278B6DFBA9AE72FF5CB828 /* Pods-jubilacio-jubilacioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jubilacio-jubilacioUITests.debug.xcconfig"; path = "Target Support Files/Pods-jubilacio-jubilacioUITests/Pods-jubilacio-jubilacioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BFC05F7F8DF5022FD548816 /* Pods-jubilacio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jubilacio.release.xcconfig"; path = "Target Support Files/Pods-jubilacio/Pods-jubilacio.release.xcconfig"; sourceTree = "<group>"; };
+		8D15D468AF6160B94AE34949 /* Pods-jubilacioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jubilacioTests.release.xcconfig"; path = "Target Support Files/Pods-jubilacioTests/Pods-jubilacioTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E159ADCC3B8353D3F2A6A06 /* Pods_jubilacio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jubilacio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08596EB2CC01D4254E87252 /* Pods-jubilacio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jubilacio.debug.xcconfig"; path = "Target Support Files/Pods-jubilacio/Pods-jubilacio.debug.xcconfig"; sourceTree = "<group>"; };
+		DC6E88398A7AACEA1E9E3045 /* Pods-jubilacio-jubilacioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jubilacio-jubilacioUITests.release.xcconfig"; path = "Target Support Files/Pods-jubilacio-jubilacioUITests/Pods-jubilacio-jubilacioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E6D812A616F9412D7F8A7569 /* Pods_jubilacioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jubilacioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7236123876BFEC2D6E348DC4 /* Pods_jubilacio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26BBC0D6C1278C1322B18C0 /* Pods_jubilacioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EFC77E9BA8CD1855E07C132 /* Pods_jubilacio_jubilacioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				02ACD4292AE58CAE00644F32 /* jubilacioTests */,
 				02ACD4332AE58CAE00644F32 /* jubilacioUITests */,
 				02ACD4112AE58CAD00644F32 /* Products */,
+				F6CAFC6054B83E63647E253A /* Pods */,
+				916AC61EC6B141A9FF020BDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = jubilacioUITests;
 			sourceTree = "<group>";
 		};
+		916AC61EC6B141A9FF020BDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E159ADCC3B8353D3F2A6A06 /* Pods_jubilacio.framework */,
+				28248D4C1096BCF49BABE44E /* Pods_jubilacio_jubilacioUITests.framework */,
+				E6D812A616F9412D7F8A7569 /* Pods_jubilacioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6CAFC6054B83E63647E253A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B08596EB2CC01D4254E87252 /* Pods-jubilacio.debug.xcconfig */,
+				7BFC05F7F8DF5022FD548816 /* Pods-jubilacio.release.xcconfig */,
+				39278B6DFBA9AE72FF5CB828 /* Pods-jubilacio-jubilacioUITests.debug.xcconfig */,
+				DC6E88398A7AACEA1E9E3045 /* Pods-jubilacio-jubilacioUITests.release.xcconfig */,
+				3330F36C303117D41C27CB25 /* Pods-jubilacioTests.debug.xcconfig */,
+				8D15D468AF6160B94AE34949 /* Pods-jubilacioTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02ACD43A2AE58CAE00644F32 /* Build configuration list for PBXNativeTarget "jubilacio" */;
 			buildPhases = (
+				EF7D49F9AD268F857E844894 /* [CP] Check Pods Manifest.lock */,
 				02ACD40C2AE58CAD00644F32 /* Sources */,
 				02ACD40D2AE58CAD00644F32 /* Frameworks */,
 				02ACD40E2AE58CAD00644F32 /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02ACD43D2AE58CAE00644F32 /* Build configuration list for PBXNativeTarget "jubilacioTests" */;
 			buildPhases = (
+				1AD0F4CC53EB77A8F0132D40 /* [CP] Check Pods Manifest.lock */,
 				02ACD4222AE58CAE00644F32 /* Sources */,
 				02ACD4232AE58CAE00644F32 /* Frameworks */,
 				02ACD4242AE58CAE00644F32 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02ACD4402AE58CAE00644F32 /* Build configuration list for PBXNativeTarget "jubilacioUITests" */;
 			buildPhases = (
+				9AFD00FC5E0A74CC2222B473 /* [CP] Check Pods Manifest.lock */,
 				02ACD42C2AE58CAE00644F32 /* Sources */,
 				02ACD42D2AE58CAE00644F32 /* Frameworks */,
 				02ACD42E2AE58CAE00644F32 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AD0F4CC53EB77A8F0132D40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jubilacioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AFD00FC5E0A74CC2222B473 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jubilacio-jubilacioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7D49F9AD268F857E844894 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jubilacio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02ACD40C2AE58CAD00644F32 /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		02ACD43B2AE58CAE00644F32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08596EB2CC01D4254E87252 /* Pods-jubilacio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +559,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +575,7 @@
 		};
 		02ACD43C2AE58CAE00644F32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BFC05F7F8DF5022FD548816 /* Pods-jubilacio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +589,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +605,7 @@
 		};
 		02ACD43E2AE58CAE00644F32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3330F36C303117D41C27CB25 /* Pods-jubilacioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +626,7 @@
 		};
 		02ACD43F2AE58CAE00644F32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D15D468AF6160B94AE34949 /* Pods-jubilacioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +647,7 @@
 		};
 		02ACD4412AE58CAE00644F32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39278B6DFBA9AE72FF5CB828 /* Pods-jubilacio-jubilacioUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +666,7 @@
 		};
 		02ACD4422AE58CAE00644F32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC6E88398A7AACEA1E9E3045 /* Pods-jubilacio-jubilacioUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
