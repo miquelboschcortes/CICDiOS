@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         AppCenter.start(
-            withAppSecret: "5c570b5d-3a41-41b1-b8a1-e9c651ff5d63",
+            withAppSecret: "189e88e1-9fdb-430d-ae39-93985bd09bba",
             services: [Analytics.self, Crashes.self]
         )
         
