@@ -24,13 +24,13 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        if Crashes.hasCrashedInLastSession {
-            let alert = UIAlertController(title: "Oops", message: "Sorry about that, an error occured.", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "It's cool", style: .default, handler: nil))
-            self.present(alert, animated: true, completion: nil)
-        }
-        
-        Analytics.trackEvent("navigated_to_calculator")
+//        if Crashes.hasCrashedInLastSession {
+//            let alert = UIAlertController(title: "Oops", message: "Sorry about that, an error occured.", preferredStyle: .alert)
+//            alert.addAction(UIAlertAction(title: "It's cool", style: .default, handler: nil))
+//            self.present(alert, animated: true, completion: nil)
+//        }
+//        
+//        Analytics.trackEvent("navigated_to_calculator")
     }
     
     func calculateRetirementAmount(current_age: Int, retirement_age : Int, monthly_investment: Float, current_savings: Float, interest_rate: Float) -> Double {
